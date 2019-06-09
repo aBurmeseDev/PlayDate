@@ -16,10 +16,13 @@
   .media-left img {
     display: none;
   }
-  .media {
+  /* .media {
     width: 95%;
-  }
+  } */
   .BusinessList {
-    margin: 45rem 1rem 7rem 1rem;
+    margin-right: 6rem;
+  }
+  .google-map {
+    width: 20%;
   }
 }
