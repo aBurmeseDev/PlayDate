@@ -70,7 +70,7 @@ class Playgroup extends Component {
         style={{ paddingTop: this.props.navbarHeight + "px" }}
       >
         <Row>
-          <Col md={12} s={12}>
+          <Col lg={12} md={13} s={12}>
             <Panel id="main-panel" bsStyle="default">
               <Panel.Heading style={{ padding: "10px 0px 0px" }}>
                 <Nav
