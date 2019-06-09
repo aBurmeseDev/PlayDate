@@ -39,7 +39,7 @@
 }
 
 .SearchBar-sort-options li:hover {
-  color: black;
+  color: #51d0de;
 }
 
 .SearchBar-sort-options li.active,
@@ -107,15 +107,16 @@
 @media only screen and (max-width: 560px) {
   .SearchBar {
     width: auto;
-    /* background-image: url("./kid.jpg"); */
   }
   .Search-term {
-    margin-right: 0;
+    margin-left: -8rem;
     margin-bottom: 0.86rem;
+    width: 32rem;
   }
   .SearchBar-sort-options ul {
     margin-left: 2rem;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
+    width: 32rem;
   }
 
   .SearchBar-fields {
@@ -126,5 +127,13 @@
   .SearchBar-fields input {
     margin-right: 0;
     margin-bottom: 0.86rem;
+  }
+  .SearchBar-submit {
+    margin-left: 3rem;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  .SearchBar-submit {
+    margin-left: 10rem;
   }
 }
