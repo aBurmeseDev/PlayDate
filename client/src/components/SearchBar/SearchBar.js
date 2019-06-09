@@ -74,7 +74,7 @@ class SearchBar extends React.Component {
     return (
       <div className="SearchBar">
         <Row>
-          <Col md={4}>
+          <Col md={9}>
             <div className="SearchBar-fields">
               <label>
                 <select
@@ -120,9 +120,6 @@ class SearchBar extends React.Component {
                 <img src={yelp} style={{ width: 70, height: 55 }} alt="Yelp" />
               </a>
             </div>
-          </Col>
-          <Col md={8}>
-            <div />
           </Col>
         </Row>
       </div>

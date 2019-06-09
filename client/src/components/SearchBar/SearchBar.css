@@ -39,7 +39,7 @@
 }
 
 .SearchBar-sort-options li:hover {
-  color: black;
+  color: #51d0de;
 }
 
 .SearchBar-sort-options li.active,
@@ -130,5 +130,10 @@
   }
   .SearchBar-submit {
     margin-left: 3rem;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  .SearchBar-submit {
+    margin-left: 10rem;
   }
 }
