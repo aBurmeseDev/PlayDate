@@ -13,7 +13,7 @@ img:hover {
 .navbar-brand,
 .navbar-nav > li > a {
   text-shadow: none !important;
-  color: #bf4aa8 !important;
+  color: #ffffff !important;
 }
 
 /* img {
@@ -22,7 +22,7 @@ img:hover {
   box-shadow: none !important;
 } */
 
-.navbar .navbar-brand {
+.navbar-brand {
   font-size: 24px;
   min-height: 58px;
 }
@@ -30,17 +30,16 @@ img:hover {
   padding: 0.01rem 0;
   font-size: 2rem;
 }
-.navbar .navbar-nav > li > a,
-.navbar .navbar-nav > li > a:focus,
-.navbar .navbar-nav > li > a:hover {
-  color: #130101;
+
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:hover {
+  color: #130101 !important;
   line-height: 28px;
 }
 
-.navbar .navbar-nav > .active > a,
-.navbar .navbar-nav > .active > a:focus,
-.navbar .navbar-nav > .active > a:hover {
-  color: #130101;
+.navbar-nav > .active > a:focus,
+.navbar-nav > .active > a:hover {
+  color: #130101 !important;
   font-size: 20px;
   /*background-color: white;*/
 }
