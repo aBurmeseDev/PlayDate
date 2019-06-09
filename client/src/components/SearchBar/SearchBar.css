@@ -6,7 +6,7 @@
 
   justify-content: center;
   background-image: url("./kids3.jpg");
-  background-color: #f4f4f4;
+  background-color: #d9d9d9;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100rem;
@@ -20,16 +20,17 @@
   margin-left: 100px;
   color: black;
   border: 1px solid white;
-  background-color: white;
-  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  /* border-radius: 8px; */
   width: 400px;
+  padding: 1.5rem;
 }
 
 .SearchBar-sort-options li {
   cursor: pointer;
   width: 23rem;
   border-bottom: 0px solid #51d0de;
-  padding: 0 2rem;
+  padding: 0.25rem 2rem;
   line-height: 1.13;
   text-align: left;
   font-weight: 600;
@@ -61,7 +62,7 @@
   margin-right: 2.22rem;
   border: 1px solid white;
   border-radius: 4px;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 500;
   background-color: white;
   margin-bottom: 2rem;
