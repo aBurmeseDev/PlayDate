@@ -2,8 +2,27 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 4.4rem 10%;
+  margin: 4rem 1rem 4rem 15rem;
 }
 .media-body {
   width: auto !important;
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .BusinessList {
+    margin: 45rem 30rem 5rem 1rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .media-left img {
+    display: none;
+  }
+  /* .media {
+    width: 95%;
+  } */
+  .BusinessList {
+    margin-right: 6rem;
+  }
+  .google-map {
+    width: 20%;
+  }
 }
