@@ -36,11 +36,13 @@
   font-family: "Roboto", sans-serif;
   font-size: 10rem;
   text-align: center;
+  padding-bottom: 2rem;
   /* margin-top: -350px; */
 }
 .About h5 {
   font-size: 2rem;
   color: #444444;
+  padding-bottom: 2rem;
 }
 .About p {
   /* color: #bf4aa8; */
