@@ -36,7 +36,7 @@ class Navbar extends Component {
             </Link>
           </div> */}
           {this.props.user && this.props.user._id && (
-            <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+            <ul className="navbar-nav mr-auto mt-2 mt-lg-">
               <li
                 className={
                   window.location.pathname === "/search" ? "active" : ""

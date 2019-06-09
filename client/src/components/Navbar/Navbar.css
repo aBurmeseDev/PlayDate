@@ -13,7 +13,7 @@ img:hover {
 .navbar-brand,
 .navbar-nav > li > a {
   text-shadow: none !important;
-  /* color: #bf4aa8; */
+  color: #bf4aa8 !important;
 }
 
 /* img {
