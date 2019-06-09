@@ -68,7 +68,11 @@ class Navbar extends Component {
                 }
               >
                 {/*<GoogleButton /> */}
-                <img src={googleButton} alt="sign into Google Button" />
+                <img
+                  src={googleButton}
+                  alt="sign into Google Button"
+                  className="googleBtn"
+                />
               </a>
             </ul>
           )}

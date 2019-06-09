@@ -38,6 +38,10 @@
   text-align: center;
   /* margin-top: -350px; */
 }
+.About h5 {
+  font-size: 2rem;
+  color: #444444;
+}
 .About p {
   /* color: #bf4aa8; */
   font-style: Arial;
