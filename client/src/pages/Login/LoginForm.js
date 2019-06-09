@@ -1,22 +1,22 @@
-import React, { Component } from 'react'
-import { Redirect } from 'react-router-dom'
-import googleButton from './google_signin_buttons/web/1x/btn_google_signin_dark_pressed_web.png'
+import React, { Component } from "react";
+import { Redirect } from "react-router-dom";
+import googleButton from "./google_signin_buttons/web/1x/btn_google_signin_dark_pressed_web.png";
 
 class Login extends Component {
   state = {
-    username: '',
-    password: '',
+    username: "",
+    password: "",
     redirectTo: null
-  }
+  };
 
-  handleChange = (event) => {
+  handleChange = event => {
     this.setState({
       [event.target.name]: event.target.value
-    })
-  }
+    });
+  };
 
-  handleSubmit = (event) => {
-    event.preventDefault()
+  handleSubmit = event => {
+    event.preventDefault();
 
     /*const {
       username,
@@ -25,21 +25,17 @@ class Login extends Component {
 
     //console.log('handleSubmit')
 
-    this.props._login()
+    this.props._login();
     this.setState({
-      redirectTo: '/'
-    })
-  }
+      redirectTo: "/"
+    });
+  };
 
   render() {
-    const {
-      redirectTo,
-      username,
-      password
-    } = this.state
+    const { redirectTo, username, password } = this.state;
 
     if (redirectTo) {
-      return <Redirect to={{ pathname: redirectTo }} />
+      return <Redirect to={{ pathname: redirectTo }} />;
     } else {
       return (
         <div className="LoginForm">
@@ -61,14 +57,15 @@ class Login extends Component {
             />
             <button onClick={this.handleSubmit}>Login</button>
           </form>
-          <a href={window.location.hostname === 'localhost' ? "http://localhost:3001/auth/google/" :  "https://socialmomsies.herokuapp.com/auth/google/"}>
-							{/*<GoogleButton /> */}
-							<img src={googleButton} alt="sign into Google Button" />
-						</a>
+          <a href="http://localhost:3001/auth/google/">
+            {/* <a href={window.location.hostname === 'localhost' ? "http://localhost:3001/auth/google/" :  "https://.herokuapp.com/auth/google/"}> */}
+            {/*<GoogleButton /> */}
+            <img src={googleButton} alt="sign into Google Button" />
+          </a>
         </div>
-      )
+      );
     }
   }
 }
 
-export default Login
+export default Login;

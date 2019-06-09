@@ -61,11 +61,12 @@ class Navbar extends Component {
           {!this.props.user && (
             <ul className="nav navbar-nav navbar-right">
               <a
-                href={
-                  window.location.hostname === "localhost"
-                    ? "http://localhost:3001/auth/google/"
-                    : "https://socialmomsies.herokuapp.com/auth/google/"
-                }
+                href={"http://localhost:3001/auth/google/"}
+                // href={
+                //   window.location.hostname === "localhost"
+                //     ? "http://localhost:3001/auth/google/"
+                //     : "https://.herokuapp.com/auth/google/"
+                // }
               >
                 {/*<GoogleButton /> */}
                 <img

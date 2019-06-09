@@ -4,7 +4,7 @@ const db = require("../db/models");
 const passport = require("../passport");
 const url = require("url");
 
-// const host = process.env.NODE_ENV === 'production' ? 'https://socialmomsies.herokuapp.com' : 'http://localhost:3000';
+// const host = process.env.NODE_ENV === 'production' ? 'https://.herokuapp.com' : 'http://localhost:3000';
 
 // example links
 //`${host}/search`,
