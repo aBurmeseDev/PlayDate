@@ -7,12 +7,11 @@ const About = props => (
       <h1>
         Kids<span style={{ color: "yellow" }}>Fun</span>
       </h1>
-
+      <h5>KidsFun: Fun Family Events & Activities nearby</h5>
       <p>
         a new cutting-edge web application to help families find fun things to
         do nearby and real time social chat groups for parents
       </p>
-      <h5>KidsFun: Fun Family Events & Activities nearby</h5>
     </div>
   </div>
 );

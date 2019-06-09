@@ -31,19 +31,19 @@ input:focus {
 /* App Styles */
 
 .App {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 h1 {
-  padding: .66rem 0;
+  padding: 0.66rem 0;
   text-align: center;
   background-color: #f6695e;
-  font-family: fantasy;
+
   font-size: 2.5rem;
   color: #fff;
 }
 
 .wrapper {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }

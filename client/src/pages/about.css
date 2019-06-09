@@ -24,14 +24,14 @@
   height: 100rem;
 }
 
-.Search {
-  /* background-image: url('./kids.jpeg'); */
+/* .Search {
+  background-image: url("./kids.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100rem;
-}
+} */
 .About h1 {
-  color: #bf4aa8;
+  /* color: #bf4aa8; */
   font-style: italic;
   font-family: "Roboto", sans-serif;
   font-size: 10rem;
@@ -39,20 +39,28 @@
   /* margin-top: -350px; */
 }
 .About p {
-  color: #bf4aa8;
+  /* color: #bf4aa8; */
   font-style: Arial;
-  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 3rem;
 }
 .description {
   width: 100%;
   text-align: center;
-  margin-top: -5rem;
-  margin: 0 auto;
+  margin-top: -40rem;
+  /* margin: 0 auto; */
   display: inline;
-  background-color: #a7a7a773;
+  background-image: linear-gradient(
+    to left,
+    hsla(307, 50%, 65%, 0.2),
+    hsla(337, 50%, 65%, 0.2)
+  );
 }
-
+@media only screen and (max-width: 768px) {
+  .About {
+    background-size: 170% 120%;
+  }
+}
 /*.margin{
 
   margin-top: 150px;
