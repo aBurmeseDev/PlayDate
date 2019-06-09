@@ -26,15 +26,15 @@ class Navbar extends Component {
         ref={element => (this.navbarElement = element)}
       >
         <div className="container-fluid">
-          {/* <div className="navbar-header">
+          <div className="navbar-header">
             <Link className="navbar-brand" to="/">
               <img
-                alt="Social Momsies"
+                alt="Kids Fun"
                 src={logo}
                 style={{ width: 100, height: 60, marginTop: -17 }}
               />
             </Link>
-          </div> */}
+          </div>
           {this.props.user && this.props.user._id && (
             <ul className="navbar-nav mr-auto mt-2 mt-lg-">
               <li

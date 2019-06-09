@@ -30,20 +30,27 @@
   background-repeat: no-repeat;
   height: 100rem;
 }
-
 .About h1 {
   color: #bf4aa8;
   font-style: italic;
-  font-family: fantasy;
-  font-size: 100px;
+  font-family: "Roboto", sans-serif;
+  font-size: 10rem;
   text-align: center;
-  margin-top: -350px;
+  /* margin-top: -350px; */
 }
 .About p {
   color: #bf4aa8;
   font-style: Arial;
-  font-family: fantasy;
-  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+}
+.description {
+  width: 100%;
+  text-align: center;
+  margin-top: -5rem;
+  margin: 0 auto;
+  display: inline;
+  background-color: #a7a7a773;
 }
 
 /*.margin{
