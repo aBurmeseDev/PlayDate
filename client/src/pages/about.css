@@ -1,53 +1,49 @@
 .About img {
   align-content: center;
-   position: absolute;
-   top: 30%;
-   left: 50%;
-   margin-left: -(X/2)px;
-   margin-top: -(Y/2)px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -(X/2) px;
+  margin-top: -(Y/2) px;
 }
 /* .About img:hover {
 	box-shadow: 0 16px 18px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 } */
 
 .About {
-	display: flex;
+  display: flex;
   /*position:fixed;*/
-  width:100%;
-	flex-direction: column;
-	justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
 
-	background-image: url('./mommy.jpeg');
-	background-size:cover;
+  background-image: url("./beach.jpg");
+  background-size: cover;
 
-	background-repeat: no-repeat;
-	height:100rem;
+  background-repeat: no-repeat;
+  height: 100rem;
 }
-
 
 .Search {
-  	background-image: url('./kids.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:100rem;
+  /* background-image: url('./kids.jpeg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100rem;
 }
 
-
-.About h1{
-  color:white;
-  font-style:italic;
-  font-family:fantasy;
-  font-size:100px;
+.About h1 {
+  color: #bf4aa8;
+  font-style: italic;
+  font-family: fantasy;
+  font-size: 100px;
   text-align: center;
-  margin-top:-350px;
+  margin-top: -350px;
 }
-.About p{
-color:white;
-font-style:Arial;
-font-family:fantasy;
-font-size:30px;
-
-
+.About p {
+  color: #bf4aa8;
+  font-style: Arial;
+  font-family: fantasy;
+  font-size: 30px;
 }
 
 /*.margin{
