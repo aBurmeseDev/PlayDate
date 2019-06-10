@@ -12,6 +12,9 @@
   height: 100rem;
   /*z-index: 1;*/
 }
+.SearchBar-fields label {
+  display: block;
+}
 
 .SearchBar-sort-options ul {
   display: inline-table;
