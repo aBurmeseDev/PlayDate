@@ -5,7 +5,7 @@ const About = props => (
   <div className="About">
     <div className="description">
       <h1>
-        Kids<span style={{ color: "yellow" }}>Fun</span>
+        Play<span style={{ color: "yellow" }}>Date</span>
       </h1>
       <h4 style={{ color: "#444444" }}>
         Group Chat, Fun Family Events & Activities nearby
