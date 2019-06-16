@@ -169,7 +169,7 @@ class PlaygroupChat extends Component {
               onChange={this.onMessageInputChange}
             />
             <InputGroup.Button>
-              <Picker set="emojione" onChange={this.onMessageInputChange} />
+              {/* <Picker set="emojione" onChange={this.onMessageInputChange} /> */}
               {/* <Picker onSelect={this.addEmoji} />
               <Picker title="Pick your emoji…" emoji="point_up" /> */}
               {/* <Picker
