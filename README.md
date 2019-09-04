@@ -18,3 +18,7 @@ PlayDate would allow users to share ideas and experiences about their daily live
 - React Bootstrap
 - Yelp API
 - Google map API
+
+### Author
+
+* **John Lwin** - [see other works](https://www.johnlwin.info)
