@@ -19,6 +19,9 @@ PlayDate would allow users to share ideas and experiences about their daily live
 - Yelp API
 - Google map API
 
-### Author
+### Author 
+**John Lwin** - [see other works](https://www.johnlwin.info)
 
-* **John Lwin** - [see other works](https://www.johnlwin.info)
+### License
+
+This project is licensed under the MIT License
